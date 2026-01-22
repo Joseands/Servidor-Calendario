@@ -1,0 +1,11 @@
+.env
+.env.*
+cache/
+logs/
+.pm2/
+snapshots/
+tmp/
+.npm/
+.local/
+**/node_modules/
+*.log

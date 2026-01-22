@@ -1,0 +1,42 @@
+{
+  "service": "ff-news",
+  "version": "1.0.0",
+  "base_url": "https://servcalendario.duckdns.org",
+  "cache": {
+    "file": "/opt/ff-news/cache/latest.json",
+    "refresh_seconds": 300,
+    "source": "ForexFactory calendar"
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/calendar",
+      "description": "Devuelve el JSON cacheado del calendario económico.",
+      "response": {
+        "content_type": "application/json",
+        "fields": [
+          "meta.generated_at_utc",
+          "meta.source",
+          "meta.count",
+          "events[]"
+        ]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/v1/status",
+      "description": "Estado del servicio: uptime, última ingesta, tamaño de cache."
+    }
+  ],
+  "event_schema": {
+    "id": "string",
+    "datetime_utc": "YYYY-MM-DDTHH:mm:ssZ",
+    "currency": "string",
+    "impact": "low|medium|high|holiday|unknown",
+    "title": "string",
+    "actual": "string|null",
+    "forecast": "string|null",
+    "previous": "string|null",
+    "url": "string|null"
+  }
+}

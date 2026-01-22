@@ -1,0 +1,15 @@
+{
+  "name": "ff-news-ingest",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/ingest.js",
+  "scripts": {
+    "start": "node src/ingest.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "luxon": "^3.7.2"
+  }
+}

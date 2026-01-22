@@ -1,0 +1,11 @@
+[Unit]
+Description=Run ff-news DuckDNS update every 5 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+AccuracySec=30s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

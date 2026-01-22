@@ -1,0 +1,12 @@
+[Unit]
+Description=ff-news ingest ForexFactory calendar -> JSON cache
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ffnews
+Group=ffnews
+WorkingDirectory=/opt/ff-news/ingest
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node /opt/ff-news/ingest/src/ingest.js

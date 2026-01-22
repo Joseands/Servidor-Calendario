@@ -1,0 +1,10 @@
+[Unit]
+Description=ff-news DuckDNS update
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ffnews
+Group=ffnews
+ExecStart=/opt/ff-news/scripts/duckdns-update.sh

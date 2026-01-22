@@ -1,0 +1,22 @@
+[Unit]
+Description=PM2 process manager (ffnews)
+Documentation=https://pm2.keymetrics.io/
+After=network.target
+
+[Service]
+Type=simple
+User=ffnews
+Group=ffnews
+WorkingDirectory=/opt/ff-news
+Environment=PM2_HOME=/opt/ff-news/.pm2
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Restart=on-failure
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+ExecStart=/usr/lib/node_modules/pm2/bin/pm2 resurrect --no-daemon
+ExecReload=/usr/lib/node_modules/pm2/bin/pm2 reload all
+ExecStop=/usr/lib/node_modules/pm2/bin/pm2 kill
+
+[Install]
+WantedBy=multi-user.target
