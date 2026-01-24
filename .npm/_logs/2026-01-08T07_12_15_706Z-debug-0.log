@@ -1,0 +1,76 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/opt/ff-news/ingest/.npmrc
+5 silly config load:file:/opt/ff-news/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install dotenv
+8 verbose argv "install" "dotenv"
+9 verbose logfile logs-max:10 dir:/opt/ff-news/.npm/_logs/2026-01-08T07_12_15_706Z-
+10 verbose logfile /opt/ff-news/.npm/_logs/2026-01-08T07_12_15_706Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1130364928 maxSize:282591232 maxEntrySize:141295616
+13 silly idealTree buildDeps
+14 silly fetch manifest dotenv@^17.2.3
+15 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/dotenv 122ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/dotenv set size:261324 disposed:false
+18 silly placeDep ROOT dotenv@17.2.3 REPLACE for: ff-news-ingest@1.0.0 want: ^17.2.3
+19 silly reify moves {}
+20 silly audit bulk request {
+20 silly audit   asynckit: [ '0.4.0' ],
+20 silly audit   axios: [ '1.13.2' ],
+20 silly audit   boolbase: [ '1.0.0' ],
+20 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+20 silly audit   cheerio: [ '1.1.2' ],
+20 silly audit   'cheerio-select': [ '2.1.0' ],
+20 silly audit   'combined-stream': [ '1.0.8' ],
+20 silly audit   'css-select': [ '5.2.2' ],
+20 silly audit   'css-what': [ '6.2.2' ],
+20 silly audit   'delayed-stream': [ '1.0.0' ],
+20 silly audit   'dom-serializer': [ '2.0.0' ],
+20 silly audit   domelementtype: [ '2.3.0' ],
+20 silly audit   domhandler: [ '5.0.3' ],
+20 silly audit   domutils: [ '3.2.2' ],
+20 silly audit   'dunder-proto': [ '1.0.1' ],
+20 silly audit   'encoding-sniffer': [ '0.2.1' ],
+20 silly audit   entities: [ '4.5.0', '6.0.1' ],
+20 silly audit   'es-define-property': [ '1.0.1' ],
+20 silly audit   'es-errors': [ '1.3.0' ],
+20 silly audit   'es-object-atoms': [ '1.1.1' ],
+20 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+20 silly audit   'follow-redirects': [ '1.15.11' ],
+20 silly audit   'form-data': [ '4.0.5' ],
+20 silly audit   'function-bind': [ '1.1.2' ],
+20 silly audit   'get-intrinsic': [ '1.3.0' ],
+20 silly audit   'get-proto': [ '1.0.1' ],
+20 silly audit   gopd: [ '1.2.0' ],
+20 silly audit   'has-symbols': [ '1.1.0' ],
+20 silly audit   'has-tostringtag': [ '1.0.2' ],
+20 silly audit   hasown: [ '2.0.2' ],
+20 silly audit   htmlparser2: [ '10.0.0' ],
+20 silly audit   'iconv-lite': [ '0.6.3' ],
+20 silly audit   luxon: [ '3.7.2' ],
+20 silly audit   'math-intrinsics': [ '1.1.0' ],
+20 silly audit   'mime-db': [ '1.52.0' ],
+20 silly audit   'mime-types': [ '2.1.35' ],
+20 silly audit   'nth-check': [ '2.1.1' ],
+20 silly audit   parse5: [ '7.3.0' ],
+20 silly audit   'parse5-htmlparser2-tree-adapter': [ '7.1.0' ],
+20 silly audit   'parse5-parser-stream': [ '7.1.2' ],
+20 silly audit   'proxy-from-env': [ '1.1.0' ],
+20 silly audit   'safer-buffer': [ '2.1.2' ],
+20 silly audit   undici: [ '7.18.2' ],
+20 silly audit   'whatwg-encoding': [ '3.1.1' ],
+20 silly audit   'whatwg-mimetype': [ '4.0.0' ],
+20 silly audit   dotenv: [ '17.2.3' ]
+20 silly audit }
+21 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 121ms
+22 silly audit report {}
+23 verbose cwd /opt/ff-news/ingest
+24 verbose os Linux 5.15.0-161-generic
+25 verbose node v24.12.0
+26 verbose npm  v11.6.2
+27 verbose exit 0
+28 info ok

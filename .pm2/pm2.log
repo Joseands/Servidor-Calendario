@@ -1,0 +1,46 @@
+2026-01-08T05:55:01: PM2 log: ===============================================================================
+2026-01-08T05:55:01: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-01-08T05:55:01: PM2 log: Time                 : Thu Jan 08 2026 05:55:01 GMT+0000 (Coordinated Universal Time)
+2026-01-08T05:55:01: PM2 log: PM2 version          : 6.0.14
+2026-01-08T05:55:01: PM2 log: Node.js version      : 24.12.0
+2026-01-08T05:55:01: PM2 log: Current arch         : x64
+2026-01-08T05:55:01: PM2 log: PM2 home             : /opt/ff-news/.pm2
+2026-01-08T05:55:01: PM2 log: PM2 PID file         : /opt/ff-news/.pm2/pm2.pid
+2026-01-08T05:55:01: PM2 log: RPC socket file      : /opt/ff-news/.pm2/rpc.sock
+2026-01-08T05:55:01: PM2 log: BUS socket file      : /opt/ff-news/.pm2/pub.sock
+2026-01-08T05:55:01: PM2 log: Application log path : /opt/ff-news/.pm2/logs
+2026-01-08T05:55:01: PM2 log: Worker Interval      : 30000
+2026-01-08T05:55:01: PM2 log: Process dump file    : /opt/ff-news/.pm2/dump.pm2
+2026-01-08T05:55:01: PM2 log: Concurrent actions   : 2
+2026-01-08T05:55:01: PM2 log: SIGTERM timeout      : 1600
+2026-01-08T05:55:01: PM2 log: Runtime Binary       : /usr/bin/node
+2026-01-08T05:55:01: PM2 log: ===============================================================================
+2026-01-08T05:55:01: PM2 log: App [ff-news-api:0] starting in -fork mode-
+2026-01-08T05:55:01: PM2 log: App [ff-news-api:0] online
+2026-01-08T05:58:05: PM2 log: Stopping app:ff-news-api id:0
+2026-01-08T05:58:05: PM2 log: App [ff-news-api:0] exited with code [0] via signal [SIGINT]
+2026-01-08T05:58:05: PM2 log: pid=5621 msg=process killed
+2026-01-08T05:58:05: PM2 log: PM2 successfully stopped
+2026-01-08T05:58:06: PM2 log: ===============================================================================
+2026-01-08T05:58:06: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-01-08T05:58:06: PM2 log: Time                 : Thu Jan 08 2026 05:58:06 GMT+0000 (Coordinated Universal Time)
+2026-01-08T05:58:06: PM2 log: PM2 version          : 6.0.14
+2026-01-08T05:58:06: PM2 log: Node.js version      : 24.12.0
+2026-01-08T05:58:06: PM2 log: Current arch         : x64
+2026-01-08T05:58:06: PM2 log: PM2 home             : /opt/ff-news/.pm2
+2026-01-08T05:58:06: PM2 log: PM2 PID file         : /opt/ff-news/.pm2/pm2.pid
+2026-01-08T05:58:06: PM2 log: RPC socket file      : /opt/ff-news/.pm2/rpc.sock
+2026-01-08T05:58:06: PM2 log: BUS socket file      : /opt/ff-news/.pm2/pub.sock
+2026-01-08T05:58:06: PM2 log: Application log path : /opt/ff-news/.pm2/logs
+2026-01-08T05:58:06: PM2 log: Worker Interval      : 30000
+2026-01-08T05:58:06: PM2 log: Process dump file    : /opt/ff-news/.pm2/dump.pm2
+2026-01-08T05:58:06: PM2 log: Concurrent actions   : 2
+2026-01-08T05:58:06: PM2 log: SIGTERM timeout      : 1600
+2026-01-08T05:58:06: PM2 log: Runtime Binary       : /usr/bin/node
+2026-01-08T05:58:06: PM2 log: ===============================================================================
+2026-01-08T05:58:06: PM2 log: App [ff-news-api:0] starting in -fork mode-
+2026-01-08T05:58:06: PM2 log: App [ff-news-api:0] online
+2026-01-08T06:00:35: PM2 log: Stopping app:ff-news-api id:0
+2026-01-08T06:00:35: PM2 log: App [ff-news-api:0] exited with code [0] via signal [SIGINT]
+2026-01-08T06:00:35: PM2 log: pid=5798 msg=process killed
+2026-01-08T06:00:35: PM2 log: PM2 successfully stopped
