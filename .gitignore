@@ -1,12 +1,16 @@
-# Secrets
 .env
 .env.*
+!.env.example
+
+**/node_modules/
+**/.npm/
+**/.pm2/
+
+data/
 cache/
 logs/
-.pm2/
-snapshots/
 tmp/
-.npm/
-.local/
-**/node_modules/
+backups/
+
 *.log
+.DS_Store
